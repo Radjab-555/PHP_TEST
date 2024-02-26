@@ -38,8 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: thank_you.php");
         exit;
     } else {
-        header("Location: error.php");
-        wp_redirect( 'Ошибка' );
+        header("Location: error.php");;
         exit;
     }
 }
